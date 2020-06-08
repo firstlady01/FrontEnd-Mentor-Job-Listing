@@ -1,0 +1,168 @@
+body{
+    margin: 60px;
+    background-color: hsl(180, 52%, 96%);
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.content1{
+    display: flex;
+}
+.content2{
+    display: flex;
+    padding-left: 0px;
+    color: hsl(180, 8%, 52%);
+}
+#border{
+    border-left-color: hsl(180, 29%, 50%);
+    border-left-style: solid;
+}
+#role{
+    display: flex;
+    margin-left: 400px;
+}
+.logo{
+    margin:20px 25px 20px 10px;
+}
+.p{
+    color: hsl(180, 29%, 50%);
+    margin-right: 20px;
+}
+.new{
+    height: 30px;
+    text-align: center;
+    margin-top: 8px;
+    width: 60px;
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 19px;
+    margin-right: 20px;
+}
+.new p{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    font-variant: all-petite-caps;
+    font-size: 15px;
+}
+.feature{
+    width: 85px;
+    text-align: center;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 20px;
+    background-color: black;
+}
+.feature p{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    font-variant: all-petite-caps;
+}
+.li{
+    list-style:none;
+}
+#li{
+    margin-right: 25px;
+}
+.role1{
+    margin-right: 12px;
+    padding: 8px 6px 0px 4px;
+    height: 25px;
+    margin-top: 50px;
+    padding-top: 7px;
+    background-color: hsl(180, 52%, 96%);
+    color: hsl(180, 29%, 50%);
+}
+.role{display: flex;}
+.role1:hover{background-color: hsl(180, 29%, 50%); color:hsl(180, 52%, 96%) ;}
+h3:hover{
+    color: hsl(180, 29%, 50%);
+}
+.text{
+    position: relative;
+    bottom: 15px;
+}
+@media only screen and (max-width:380px){
+    .container{
+        display:block;
+        
+        margin-bottom: 38px;
+    }
+    #border{
+        right: 54px;
+        position: relative;
+    }
+    .new{
+        width: 44px;
+        height: 26px;
+    }
+    .feature{
+        height: 25px;
+        width: 69px;
+    }
+    .feature p{bottom: 13px;}
+    .content1{font-size: small;}
+    .text h3{
+        font-size: 12px;
+    }
+    .text p{    font-size: small;}
+    .img{width:40px;
+        position: relative;
+        right: 14px;}
+    .logo{
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+    }
+    .p{    margin-right: 5px;}
+    .new{margin-right: 3px;}
+    .top{
+        width: 65%;
+    }
+    #role{
+        margin-left: 0px;
+        position: relative;
+        bottom: 70px;
+        padding-left: 10px;
+    }
+    #role1{
+        right: 248px;
+    }
+    #role2{
+        right: 245px;
+    }
+    #role3{
+        right: 204px;
+    }
+    #role4{
+        right: 176px;
+    }
+    #role5{
+        right: 206px;
+    }
+    #role6{
+        right: 200px;
+    }
+    #role7{
+        right: 177px;
+    }
+    #role8{
+        right: 247px;
+    }
+    .role{
+        position: relative;
+        top: 40px;
+        right: 218px;
+        margin-top: 12px;
+    }
+    .border{
+        border-bottom-style: groove;
+        margin: 1px 14px 0px 8px;
+        position: relative;
+        bottom: 35px;
+    }
+}
